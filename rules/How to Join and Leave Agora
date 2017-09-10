@@ -63,7 +63,8 @@ text: |
   consent.
 
   A player CAN deregister (cease being a player) by announcement.
-  If e does so, e CANNOT register by announcement for 30 days.
+  If e does so, e CANNOT cause register emself to become a player
+  for 30 days.
 
   If a player has not sent a message to a public forum in the last
   month, then any player CAN deregister em without objection.
