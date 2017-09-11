@@ -8,6 +8,16 @@ text: |
   conduct of business and issuance of bonds on behalf of Agora. If at any time,
   a Central Bank of Agora is not declared, then the Secretary CAN and SHALL
   declare a bank to be the Central Bank of Agora.
+
+  A Bank shall be able to issue a currency and issue bonds. The charter of a
+  bank shall establish the method by which a bond or currency can be issued.
+
+  Any player CAN create a Bank without objection by specifying its charter, its
+  length and recommending a banker. The Secretary CAN create a bank with Agoran
+  Consent by specifying its charter, its length and appointing a banker. The
+  charter of a bank SHALL state its purpose, and its governance structure. If at
+  any time, a Bank lacks a Banker, the Secretary CAN and SHALL appoint a Banker
+  in accordanence with the charter of the Bank.
 id: ???
 rev: 1
 power: 2
