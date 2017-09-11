@@ -1,8 +1,12 @@
 name: First Bank of Agora
 history:
 text: |
-
+  The First Bank of Agora shall be a Bank. The banker of The First Bank of Agora
+  shall be the Secretary. This rule shall be the charter of The First Bank of
+  Agora. The First Bank of Agora shall have a term of nine months, which shall
+  be automatically renewed for succeeding intervals of nine months, if The
+  Second Bank of Agora has not been founded.
 id: ???
 rev: 1
-power: 2
+power: 1
 annotations: []
