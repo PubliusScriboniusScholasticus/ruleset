@@ -1,0 +1,14 @@
+---
+name: Banking
+history:
+
+text: |
+  A Bank is an Agoran Institution. A Bank shall have a charter, a length, and a
+  banker. The Central Bank of Agora is the bank who is responsible for the
+  conduct of business and issuance of bonds on behalf of Agora. If at any time,
+  a Central Bank of Agora is not declared, then the Secretary CAN and SHALL
+  declare a bank to be the Central Bank of Agora.
+id: ???
+rev: 1
+power: 2
+annotations: []
