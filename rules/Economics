@@ -10,6 +10,10 @@ text: |
   currency of Agora. They may be owned by Agora, any player, any organization,
   or any Agoran Institution. The Secretary is the recordkeepor for Shinies.
 
+  Bonds are a type of asset. Bonds CAN be converted according to their issuance
+  document. Rules to the contrary notwithstanding, bonds may only be issued by
+  a bank. The Banker of the issuing bank is the recordkeepor for Bonds.
+
   The Secretary CAN cause Agora to pay any player, organization, or Agoran
   Institution by announcement if doing so is specified by a rule.
 id: 2483
