@@ -30,9 +30,10 @@ text: |
   - Manifesto (Promotor): The Prime Minister distributes a
     specified proposal in the Proposal Pool.
 
-  - Kickbacks (Secretary): The Prime Minister issues a bond for an
-    amount less than or equal to 50 shinies and specifies a class
-    of purchasers.
+  - Kickbacks (Secretary): The Prime Minister issues a bond from
+    the Central Bank of a class or series previously issued for
+    an amount less than or equal to 50 shinies and specifies a
+    class of purchasers.
 id: 2451
 rev: 3
 power: 1.7
