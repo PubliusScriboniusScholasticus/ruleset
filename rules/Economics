@@ -7,11 +7,11 @@ history:
 - Amended(3) by Proposal 7864 (Aris, G., o, nichdel, Publius Scribonius Scholasticus), 27 June 2017
 text: |
   Shinies (sg. shiny) are an indestructible liquid currency, and the official
-  currency of Agora. They may be owned by Agora, any player, or any
-  organization. The Secretary is the recordkeepor for Shinies.
+  currency of Agora. They may be owned by Agora, any player, any organization,
+  or any Agoran Institution. The Secretary is the recordkeepor for Shinies.
 
-  The Secretary CAN cause Agora to pay any player or organization by
-  announcement if doing so is specified by a rule.
+  The Secretary CAN cause Agora to pay any player, organization, or Agoran
+  Institution by announcement if doing so is specified by a rule.
 id: 2483
 rev: 3
 power: 2
