@@ -1,11 +1,20 @@
 name: First Bank of Agora
 history:
+
 text: |
   The First Bank of Agora shall be a Bank. The banker of The First Bank of Agora
   shall be the Secretary. This rule shall be the charter of The First Bank of
   Agora. The First Bank of Agora shall have a term of nine months, which shall
   be automatically renewed for succeeding intervals of nine months, if The
   Second Bank of Agora has not been founded.
+
+  The First Bank of Agora shall have administration over the balance of Agora
+  in excess of 50 shinies. The First Bank of Agora shall be led by the Board
+  of Overseers. Their shall be two overseers elected once every two months in
+  alternating months. The Banker of The First Bank of Agora shall also serve
+  on the board ex officio. The Board shall have authorization to when Agora has
+  a balance of less than 50 shinies issue bonds, with a total value of up to 200
+  shinies. 
 id: ???
 rev: 1
 power: 1
