@@ -19,8 +19,8 @@ text: |
   When interpreting and applying the rules, the text of the rules
   takes precedence.  Where the text is silent, inconsistent, or
   unclear, it is to be augmented by game custom, common sense,
-  past judgements, and consideration of the best interests of the
-  game.
+  past judgements, including those issued under previous systems,
+  and consideration of the best interests of the game.
 
   Definitions and prescriptions in the rules are only to be
   applied using direct, forward reasoning; in particular, an
@@ -54,7 +54,7 @@ annotations:
     the message ineffective.
 - cfjs:
   - id: '712'
-    called: 
+    called:
   text: Referring to a Player by a method other than eir name or nickname is acceptable,
     as long as it is unambiguous.
 - cfjs:
@@ -126,6 +126,6 @@ annotations:
   text: Changes in whitespace are also inconsequential.
 - cfjs:
   - id: '1139'
-    called: 
+    called:
   text: Interpretations {judgements at the time of CFJ 1139} need not necessarily
     accord with the reasoning and arguments of Judges or Justices given in past CFJs.
