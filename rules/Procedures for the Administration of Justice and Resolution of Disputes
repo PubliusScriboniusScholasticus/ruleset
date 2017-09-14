@@ -6,25 +6,53 @@ text: |
   a case with a type-appropriate reason. Players SHALL NOT initiate more than 5
   cases by announcement per week, rules to the contrary not withstanding. The
   types of cases are as listed below:
-    1. Cases of General Inquiry: General disputes regarding the gamestate or
-    interpretation of rules.
+    1. Cases of Legal Inquiry: General disputes regarding the interpretation of
+    rules. These may arise from other cases.
 
-    2. Cases of Criminal Inquiry: Disputes arising from the alleged violations
-    of the rules by a person or group of persons.
+    2. Cases of Factual Inquiry: General disputes regarding the gamestate and
+    other questions of fact. These may arise from other cases.
 
-      2a. Cases of Punitive Inquiry: These cases MAY NOT be directly called,
-      rules to the contrary notwithstanding and are automatically intiated by
-      the finding of guilt in a case of criminal inquiry.
+    3. Cases of Public Criminal Inquiry: Disputes arising from the alleged
+    violations of the rules by a person or group of persons.
 
-      2b. Cases of Criminal Restitution: Cases arising out of a finding of guilt
-      in a Case of Criminal Inquiry. These cases are for usage by individuals
-      who have experienced direct and individual harm as the result of the
-      violations of the rules.
+      3a. Cases of Public Punitive Inquiry: These cases MAY NOT be directly
+      called, rules to the contrary notwithstanding and are automatically
+      intiated by the finding of guilt in a case of criminal inquiry.
 
-    3. Cases of Civil Inquiry: Disputes arising from contracts and other private
-    agreements.
+      3b. Cases of Public Criminal Restitution: Cases arising out of a finding
+      of guilt in a Case of Criminal Inquiry. These cases are for usage by
+      individuals who have experienced direct and individual harm as the result
+      of the violations of the rules.
 
-      3a. Cases of Civil Restitution: Cases arising out of Cases of Civil
+    4. Cases of Public Civil Inquiry: Disputes arising from contracts and other
+    private agreements.
+
+      4a. Cases of Public Civil Restitution: Cases arising out of Cases of Civil
+      Inquiry when an individual has experienced damage as a result of actions
+      found to have illegally occured in a Case of Civil Inquiry
+
+    5. Cases of Private Criminal Inquiry: Disputes arising from the alleged
+    violations of the rules by a person or group of persons, in which all
+    involved parties agree on a private judge to hear the case, in the pursuit
+    of a binding decision. If a person consents to the hearing of the initial
+    case in a private case, then they MUST consent to the continuation of
+    devolved hearings in a private manner, if allowable by the rules.
+
+      5a. Cases of Private Punitive Inquiry: These cases MAY NOT be directly
+      called, rules to the contrary notwithstanding and are automatically
+      intiated by the finding of guilt in a case of criminal inquiry.
+
+      5b. Cases of Private Criminal Restitution: Cases arising out of a finding
+      of guilt in a Case of Criminal Inquiry. These cases are for usage by
+      individuals who have experienced direct and individual harm as the result
+      of the violations of the rules.
+
+    6. Cases of Private Civil Inquiry: Disputes arising from contracts and other
+    private agreements. If a person consents to the hearing of the initial
+    case in a private case, then they MUST consent to the continuation of
+    devolved hearings in a private manner, if allowable by the rules.
+
+      6a. Cases of Private Civil Restitution: Cases arising out of Cases of Civil
       Inquiry when an individual has experienced damage as a result of actions
       found to have illegally occured in a Case of Civil Inquiry
 id: ???
