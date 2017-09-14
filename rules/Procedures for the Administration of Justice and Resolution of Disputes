@@ -2,8 +2,32 @@
 name: Procedures for the Administration of Justice and Resolution of Disputes
 history:
 text: |
+  Any player CAN by announcement, without objection, or with 2 support. initiate
+  a case with a type-appropriate reason. Players SHALL NOT initiate more than 5
+  cases by announcement per week, rules to the contrary not withstanding. The
+  types of cases are as listed below:
+    1. Cases of General Inquiry: General disputes regarding the gamestate or
+    interpretation of rules.
 
+    2. Cases of Criminal Inquiry: Disputes arising from the alleged violations
+    of the rules by a person or group of persons.
+
+      2a. Cases of Punitive Inquiry: These cases MAY NOT be directly called,
+      rules to the contrary notwithstanding and are automatically intiated by
+      the finding of guilt in a case of criminal inquiry.
+
+      2b. Cases of Criminal Restitution: Cases arising out of a finding of guilt
+      in a Case of Criminal Inquiry. These cases are for usage by individuals
+      who have experienced direct and individual harm as the result of the
+      violations of the rules.
+
+    3. Cases of Civil Inquiry: Disputes arising from contracts and other private
+    agreements.
+
+      3a. Cases of Civil Restitution: Cases arising out of Cases of Civil
+      Inquiry when an individual has experienced damage as a result of actions
+      found to have illegally occured in a Case of Civil Inquiry
 id: ???
 rev: 1
-power:
+power: 2
 annotations: []
