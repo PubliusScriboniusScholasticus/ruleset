@@ -27,9 +27,10 @@ text: |
 
         1. Deny the claim (causing it to cease to be a doubt).
         2. Publish a revision.
-        3. Initiate an inquiry case regarding the truth of the
-           claim (if the subject is actually a matter of law),
-           or cite a relevant existing inquiry case.
+        3. Initiate an Case of Factual Inquiry regarding the
+           truth of the claim (if the subject is actually a
+           matter of law) or cite a relevant existing Case
+           of Factual Inquiry.
 id: 2201
 rev: 7
 power: 3
