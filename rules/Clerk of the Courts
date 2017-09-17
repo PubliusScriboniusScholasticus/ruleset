@@ -2,7 +2,8 @@
 name: Clerk of the Courts
 history:
 text: |
-
+  The Clerk of the Courts is an office; its holder is responsible for ensuring
+  the fair and efficient administration of justice.
 id:
 rev: 1
 power: 2
