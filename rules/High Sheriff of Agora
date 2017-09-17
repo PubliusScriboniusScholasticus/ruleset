@@ -2,7 +2,13 @@
 name: High Sheriff of Agora
 history:
 text: |
+  The High Sheriff of Agora is an office; its holder is responsible for
+  protecting the interests of Agora in all judicial matters.
 
+  The High Sheriff of Agora SHALL ensure that within one week of any publicly
+  knowable violation of the rules occuring, a Case of Criminal Inquiry exists
+  regarding the violation and SHALL if not the person calling the case, submit
+  a recommended decision considering the best interests of Agora.
 id:
 rev: 1
 power: 2
