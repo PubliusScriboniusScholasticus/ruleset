@@ -14,7 +14,7 @@ text: |
   later procedure. The Banker of The First Bank of Agora also serves
   on the board ex officio. The Board of Overseers has authorization to
   when Agora has a balance of less than 50 shinies issue bonds, with a total
-  value of up to 100 shinies. The terms of these bonds is determined by
+  value of up to 100 shinies. The terms of these bonds are determined by
   the Board of Overseers. The Board of Overseers SHALL NOT issue any bond with a
   with terms precluding their sale on the open market or with any provision
   allowing the conversion of the bond to currency before the passage of two
@@ -29,12 +29,13 @@ text: |
   held or issued are backed and insured by the full sovereignty of Agora.
 
   An election for the position of overseer of The First Bank of Agora CAN be
-  called by any player if a position is empty or if an individual has held their
+  called by any person if a position is empty or if an individual has held their
   position for 4 months without interruption or elections occuring. If the
-  position is not empty, any player CAN call an election without two objections,
+  position is not empty, any person CAN call an election without two objections,
   excluding objections by the Banker or any Overseers of The First Bank of Agora.
-  For elections to the Board of Overseers, the options are all players and
-  PRESENT, and the vote collector is the Secretary.
+  For elections to the Board of Overseers, the options are all players, all
+  announced non-player persons and PRESENT, and the vote collector is the
+  Secretary.
 id: ???
 rev: 1
 power: 1
