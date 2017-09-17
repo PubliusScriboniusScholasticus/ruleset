@@ -2,7 +2,8 @@
 name: Chief Justice of the Courts
 history:
 text: |
-
+  The Chief Justice of the Courts is an office; its holder is responsible for
+  chairing juries of appeal for all non-private cases.
 id:
 rev: 1
 power: 2
