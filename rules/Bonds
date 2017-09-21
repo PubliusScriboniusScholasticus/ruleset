@@ -1,0 +1,15 @@
+---
+name: Bonds
+history:
+text: |
+  Bonds are a type of asset. Bonds CAN be converted according to their issuance
+  document. Rules to the contrary notwithstanding, bonds may only be issued by
+  a bank. The Banker of the issuing bank is the recordkeeper for Bonds. All
+  bonds SHALL have a term specified in their issuance document. Any person,
+  organization, or Agoran Institution who owns a bond CAN and MAY, according to
+  the bond's issuing document, convert the bond by destroying the bond and being
+  payed by the issuing bank an amount determined by its issuance document.
+id:
+rev: 1
+power: 2
+annotations: []

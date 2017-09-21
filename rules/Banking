@@ -1,0 +1,29 @@
+---
+name: Banking
+history:
+
+text: |
+  A Bank is an Agoran Institution. A Bank shall have a charter, a length, and a
+  banker. The Central Bank of Agora is the bank who is responsible for the
+  conduct of business and issuance of bonds on behalf of Agora. The length of a
+  bank is the period during which the bank will operate. If at any time,
+  a Central Bank of Agora is not declared, then the Secretary CAN and SHALL
+  declare a bank to be the Central Bank of Agora.
+
+  A Bank is able to issue a currency and issue bonds. The charter of a
+  bank shall establish the method by which a bond or currency can be issued.
+
+  Any person CAN create a Bank without objection by specifying its charter, its
+  length and recommending a banker. The Secretary CAN create a bank with Agoran
+  Consent by specifying its charter, its length and appointing a banker. The
+  charter of a bank SHALL state its purpose, and its governance structure. If at
+  any time, a Bank lacks a Banker, the Secretary CAN and SHALL appoint a Banker
+  in accordance with the charter of the Bank or SHALL destroy the bank. If any
+  bank has existed for longer than allowed by its charter or its length, then
+  the Banker and the Secretary CAN destroy it and the Banker SHALL do so in a
+  timely manner. The Secretary CAN destroy a bank without object or with Agoran
+  Consent.
+id: ???
+rev: 1
+power: 2
+annotations: []
