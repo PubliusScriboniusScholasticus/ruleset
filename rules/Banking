@@ -3,7 +3,7 @@ name: Banking
 history:
 
 text: |
-  A Bank has have a charter, a length, and a banker. The Central Bank of Agora
+  A Bank has have a charter and a length. The Central Bank of Agora
   is the bank who is responsible for the conduct of business and issuance of
   bonds on behalf of Agora. The length of a bank is the period during which the
   bank will operate. If at any time, a Central Bank of Agora is not declared,
