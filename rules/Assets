@@ -31,8 +31,8 @@ text: |
   document), and existing solely because its backing document defines its
   existence.
 
-  Each asset has exactly one owner.If an asset would otherwise lack an
-  owner, it is owned by Agora.If an asset's backing document restricts
+  Each asset has exactly one owner. If an asset would otherwise lack an
+  owner, it is owned by Agora. If an asset's backing document restricts
   its ownership to a class of entities, then that asset CANNOT be
   gained by or transferred to an entity outside that class, and is
   destroyed if it is owned by an entity outside that class (except for
@@ -41,7 +41,7 @@ text: |
   modification by its backing document.
 
   Unless modified by an asset's backing document, ownership of an asset is
-  restricted to Agora, persons, organizations, and Agoran Instiutions.
+  restricted to Agora, persons, organizations, and Banks.
 
   An organization's charter CAN specify whether or not that organization is
   willing receive assets or a class of assets. Generally, an organization CANNOT
