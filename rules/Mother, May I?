@@ -39,7 +39,8 @@ text: |
      rules.
 
   7. MUST, SHALL, REQUIRED, MANDATORY:  Failing to perform the
-     described action violates the rule in question.
+     described action violates the rule in question, unless performing
+     the described action is ILLEGAL.
 
   8. SHOULD, ENCOURAGED, RECOMMENDED:  Before failing to perform
      the described action, the full implications of failing to
@@ -51,7 +52,7 @@ power: 3
 annotations:
 - cfjs:
   - id: '1132'
-    called: 
+    called:
   text: A Player failing to perform a duty required by the Rules within a reasonable
     time may be in violation of the Rules, even if the Rules do not provide a time
     limit for the performance of that duty.
