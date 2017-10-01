@@ -3,14 +3,14 @@ require 'yaml'
 require 'ostruct'
 
 require_relative 'common'
-index = YAML.load_file('data/index')
+index = YAML.load_file('rules/index')
 rule_groups = index.map do |name, rule_names|
   OpenStruct.new(name: name, rules: rule_names.map do |rn|
-    OpenStruct.new(YAML.load_file("data/rules/#{rn}"))
+    OpenStruct.new(YAML.load_file("rules/#{rn}"))
   end)
 end
 
-meta = YAML.load_file('data/meta')
+meta = YAML.load_file('rules/meta')
 
 def word_wrap(text, options = {})
   line_width = options.fetch(:line_width, 80)

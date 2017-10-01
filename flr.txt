@@ -1269,6 +1269,7 @@ Created by Proposal 7865 (Aris, o, nichdel, ais523), 27 June 2017
 ----------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rule 2505/0 (Power=1.0)
 Random Choices
 
@@ -1291,6 +1292,8 @@ Created by Proposal 7883 "Fear v2.1" (G.), 26 September 2017
 
 =======
 >>>>>>> parent of 36c870a... Test
+=======
+>>>>>>> parent of ab0f31b... Test
 Rule 2500/0 (Power=1)
 Action Points
 
@@ -3220,6 +3223,7 @@ History:
 Created by Proposal 7831 (Alexis), 5 December 2016
 Amended by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
   September 2017
+<<<<<<< HEAD
 
 ----------------------------------------------------------------------
 
@@ -3247,6 +3251,8 @@ Blue Cards
 History:
 Created by Proposal 7886 "Card Reform and Expansion v4" (Aris, ais523,
   Ørjan), 26 September 2017
+=======
+>>>>>>> parent of ab0f31b... Test
 
 ----------------------------------------------------------------------
 
@@ -3258,7 +3264,7 @@ Yellow Cards
       infractions for which a Green Card has already been issued.
 
       When a Yellow Card is issued, the bad sport SHOULD publish a formal
-      apology of at least 150 words explaining eir error, shame, remorse, and
+      apology of at least 200 words explaining eir error, shame, remorse, and
       ardent desire for self-improvement. A player issuing a Yellow Card MAY,
       when doing so, additionally specify up to 10 words to be included in the
       apology. Until e publishes such an apology, as a penalty, the bad sport's
@@ -3307,29 +3313,6 @@ Pink Slips
 
 History:
 Created by Proposal 7831 (Alexis), 5 December 2016
-
-----------------------------------------------------------------------
-
-Rule 2507/0 (Power=2.0)
-Black Cards
-
-      A Black Card is a card appropriate for a person who plays the game, not
-      currently a player, who either broke the rules while not a player or
-      broke them while a player and then deregistered in bad faith. A Black
-      Card CANNOT be issued to current players, and no more than 3 Black Cards
-      CAN be issued per week. Any attempt to issue a Black Card in violation
-      of these limitations is INEFFECTIVE.
-
-      When a Black Card is issued, as a penalty, within the next 7 days, any player
-      CAN once, with Agoran Consent, Slam the Door at the bad sport. After the Door
-      is Slammed at a person, e CANNOT register or take any game actions for 30
-      days, rules to the contrary notwithstanding. Any attempt to Slam the Door on
-      a player or a person whose most recent deregistration took place without
-      eir consent is INEFFECTIVE, rules to the contrary notwithstanding.
-
-History:
-Created by Proposal 7886 "Card Reform and Expansion v4" (Aris, ais523,
-  Ørjan), 26 September 2017
 
 ----------------------------------------------------------------------
 
@@ -4372,102 +4355,6 @@ Created by Proposal 7846 (o, Aris), 8 May 2017
 
 ----------------------------------------------------------------------
 
-Rule 2502/0 (Power=2.0)
-Agoraculture
-
-      Each Estate has a Farm switch, tracked by the Agronomist, with values
-      "farmed" and "unfarmed", defaulting to "unfarmed". Changes to Farm
-      switches are secured. An Estate whose Farm switch is "farmed" is a Farm,
-      and its owner is the Farmer of that Estate.
-
-      In the first week of an Agoran month, the owner of an unfarmed Estate MAY
-      flip its Farm switch to "farmed" by announcement, if e pays Agora a number
-      of shinies equal to the Farm Rate.
-
-      In the first week of an Agoran month, the owner of a Farm MAY till the
-      farm by announcement, if e pays Agora a number of shinies equal to the
-      Farm Rate. If the Farmer of an Estate does not till it within the first
-      week of an Agoran month, the Agronomist CAN flip its Farm switch to
-      "unfarmed" by announcement, and SHALL do so in a timely fashion.
-
-      When an Estate is transferred to Agora or to an Organization, its Farm
-      switch is set to "unfarmed" immediately afterwards
-
-History:
-Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September
-  2017
-
-----------------------------------------------------------------------
-
-Rule 2503/0 (Power=2.0)
-Comestibles
-
-      A Comestible is a type of liquid asset, which can be owned by players.
-      Creating Comestibles is secured. The recordkeepor of Comestibles is the
-      Agronomist.
-
-      The Farmer of an Estate may offer Comestibles by announcement, naming a
-      number of Comestibles offered and a price per Comestible in Shinies. A
-      player CANNOT offer more Comestibles in a month than 10 times the number
-      of Farms e owns. The Farmer is ENCOURAGED to name the kind of Comestibles
-      on offer after a plant, vegetable, grain, livestock, or other farm good.
-
-      A player other than the offering Farmer may accept a Comestibles offer by
-      announcement to create that number of Comestibles in eir possession, if e
-      pays the offering Farmer the price per Comestible named in the offer times
-      the number of Comestbiles offered. The Value of a Comestible created this
-      way is equal to the price per Comestible offered by the Farmer.
-
-      An offer expires at the end of the Agoran month in which it is made. Rules
-      to the contrary notwithstanding, an offer CANNOT be accepted if it has
-      expired.
-
-      During an Agoran Decision, a player can increase their voting strength on
-      that decision by destroying (syn. "eating", "consuming") Comestibles. Eir
-      voting strength is increased by one-tenth the total Value of the
-      Comestibles destroyed this way, rounded down, to a maximum of 5.
-
-      A Comestible is an Expired Comestible if it was created by accepting an
-      offer announced more than three Agoran months ago. An Expired Comestible
-      CANNOT be consumed to increase voting strength, and MAY be destroyed by
-      any player, by announcement. The Agronomist SHALL destroy all Expired
-      Comestibles at the start of each Agoran month.
-
-History:
-Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September
-  2017
-
-----------------------------------------------------------------------
-
-Rule 2501/0 (Power=1.0)
-Farm Rate
-
-      The Farm Rate is a natural singleton switch, tracked by the Agronomist.
-
-History:
-Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September
-  2017
-
-----------------------------------------------------------------------
-
-Rule 2504/0 (Power=2.0)
-The Agronomist
-
-      The Agronomist is an office.
-
-      The Agronomist's weekly report includes:
-
-      * A list of Farms and their owners.
-
-      * A list of Comestibles offers that have not been accepted and have
-        not expired.
-
-History:
-Created by Proposal 7873 "Agoraculture" (o, babelian), 7 September
-  2017
-
-----------------------------------------------------------------------
-
 ======================================================================
 Shinies
 ----------------------------------------------------------------------
@@ -4512,6 +4399,7 @@ Amended(1) by proposal 7856 "Shiny Releveling Event" (Quazie), 05 June
 ----------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rule 2496/5 (Power=1)
 Rewards
 
@@ -4555,6 +4443,41 @@ Rewards
       Reward Condition.
 >>>>>>> parent of 36c870a... Test
 
+=======
+Rule 2485/1 (Power=1)
+You can't take it with you
+
+      "Heir" is a person switch, tracked by the Registrar, whose value
+      is either empty or the name of a player or Organization. Each
+      person's Heir is empty by default. A player may flip eir Heir by
+      announcement.
+
+      When a player is deregistered, if eir Heir switch is not empty,
+      e automatically pays all of eir Balance to the named player or
+      Organization, and transfers all of eir Estates to the named
+      player or Organization. Otherwise, if eir Heir switch is empty,
+      e may specify another player, an Organization, or Agora, and pay
+      all of eir Balance and transfer all of eir Estates to the
+      specified player or Organization. If the player does not do so
+      within 1 day of deregistration, the Registrar CAN and SHALL
+      cause that player to pay eir Balance to Agora and to transfer
+      all of eir Estates to Agora, by announcement.
+
+History:
+Created by Proposal 7838 (o, nichdel, G., Oerjan), 5 December 2016
+Amended(1) by Proposal 7846 (o, Aris), 9 May 2017
+
+----------------------------------------------------------------------
+
+Rule 2496/0 (Power=1)
+Rewards
+
+      A Reward is a specified amount of shinies associated with a Reward
+      Condition. For each time a player meets a Reward Condition, e MAY
+      claim the specified award exactly once within 24 hours of meeting the
+      Reward Condition.
+
+>>>>>>> parent of ab0f31b... Test
       When a player 'claims' a Reward, Agora transfers the specified number
       of shinies to the player.
 
@@ -4562,6 +4485,7 @@ Rewards
 
         * The following two only apply to proposals that were pended via
         spending shinies:
+<<<<<<< HEAD
 
            - Being the author of an adopted proposal: 1/40th the current
            Floating Value.
@@ -4576,6 +4500,22 @@ Rewards
          claimed a maximum of once per office per week for a weekly report, and
          once per office per month for a monthly report.
 
+=======
+
+           - Being the author of an adopted proposal: 1/40th the current
+           Floating Value.
+
+           - Being the pender of an adopted proposal: 1/40th the current
+           Floating Value.
+
+        * Judging a CFJ, that was created via spending shinies, that e was
+          assigned to: 1/20th the current Floating Value.
+
+        *Publishing a duty-fulfilling report: 5 shinies. This reward can be
+         claimed a maximum of once per office per week for a weekly report, and
+         once per office per month for a monthly report.
+
+>>>>>>> parent of ab0f31b... Test
         * Resolving an Agoran Decision for the first time this week: 5
           shinies.
 
@@ -4584,6 +4524,7 @@ Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
 Amended(1) by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
   September 2017
+<<<<<<< HEAD
 <<<<<<< HEAD
 Amended(2) by Proposal 7975 "Better Accounting" (nichdel), 07
   September 2017
@@ -4594,6 +4535,8 @@ Amended(5) by Proposal 7897 "University Funding" (CuddleBeam), 26
   September 2017
 =======
 >>>>>>> parent of 36c870a... Test
+=======
+>>>>>>> parent of ab0f31b... Test
 
 ----------------------------------------------------------------------
 
@@ -4622,10 +4565,14 @@ Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
 ----------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rule 2497/3 (Power=1)
 =======
 Rule 2497/0 (Power=1)
 >>>>>>> parent of 36c870a... Test
+=======
+Rule 2497/0 (Power=1)
+>>>>>>> parent of ab0f31b... Test
 Floating Value
 
       Floating Value is a natural switch. When e publishes eir Weekly Report, the
@@ -4635,6 +4582,7 @@ History:
 Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok,
   Aris), 30 July 2017
 <<<<<<< HEAD
+<<<<<<< HEAD
 Amended(1) by Proposal 7875 "Better Accounting" (nichdel), 7 September
   2017
 Amended(2) by Proposal 7876 "Float On" (o), 26 September 2017
@@ -4642,6 +4590,8 @@ Amended(3) by Proposal 7890 "Improved Buoyancy v2" (Aris, G.), 26
   September 2017
 =======
 >>>>>>> parent of 36c870a... Test
+=======
+>>>>>>> parent of ab0f31b... Test
 
 ----------------------------------------------------------------------
 
@@ -4733,8 +4683,11 @@ No Faking
 History:
 Created by Proposal 7822 (Alexis), 7 November 2016
 <<<<<<< HEAD
+<<<<<<< HEAD
 Amended(1) by Proposal 7892 (Aris), 26 September 2017
 =======
+=======
+>>>>>>> parent of ab0f31b... Test
 
 ----------------------------------------------------------------------
 
@@ -4773,7 +4726,10 @@ Amended(3) by Proposal 7805 (nichdel), 31 July 2016
 Amended(4) via Rule 2430 "Cleanup Time," 24 May 2017
 Amended(5) by Proposal 7871 "Minor fixes (sans typos)" (V.J Rada), 7
   September 2017
+<<<<<<< HEAD
 >>>>>>> parent of 36c870a... Test
+=======
+>>>>>>> parent of ab0f31b... Test
 
 ----------------------------------------------------------------------
 
@@ -4844,9 +4800,13 @@ Highest Rule ID number ever assigned: Rule 2504
 
 Last Ruleset Ratification:
 <<<<<<< HEAD
+<<<<<<< HEAD
   Short Logical Ruleset of 2016-09-09
 =======
   Short Logical Ruleset of 2014-04-07
 >>>>>>> parent of 36c870a... Test
+=======
+  Short Logical Ruleset of 2014-04-07
+>>>>>>> parent of ab0f31b... Test
 
 END OF THE FULL LOGICAL RULESET
