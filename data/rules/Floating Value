@@ -3,21 +3,20 @@ name: Floating Value
 history:
 - Created by Proposal 7867 "Econonmics Overhaul v2" (nichdel, o, grok, Aris), 30
   July 2017
+<<<<<<< HEAD:data/rules/Floating Value
 - Amended(1) by Proposal 7875 "Better Accounting" (nichdel), 7 September 2017
 - Amended(2) by Proposal 7876 "Float On" (o), 26 September 2017
 - Amended(3) by Proposal 7890 "Improved Buoyancy v2" (Aris, G.), 26 September 2017
+=======
+>>>>>>> parent of 36c870a... Test:rules/Floating Value
 text: |
-  Floating Value is a natural singleton switch, tracked by the Secretary.
-
-  The following Floating Derived Values are defined:
-
-  * Pend Cost: 1/20th of the Floating Value, rounded up.
-  * CFJ Cost: 1/20th of the Floating Value, rounded up.
-  * Authorship Reward: 1/40th of the Floating Value, rounded up.
-  * Pend Reward: 1/40th of the Floating Value, rounded up.
-  * CFJ Reward: 1/20th of the Floating Value, rounded up.
-  * Stamp Value: 1/5th of the Floating Value, rounded up.
+  Floating Value is a natural switch. When e publishes eir Weekly Report, the
+  Secretary SHALL flip the Floating Value to Agora's shiny balance.
 id: 2497
+<<<<<<< HEAD:data/rules/Floating Value
 rev: 3
+=======
+rev: 0
+>>>>>>> parent of 36c870a... Test:rules/Floating Value
 power: 1
 annotations: []
