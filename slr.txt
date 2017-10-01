@@ -1,7 +1,7 @@
 THE SHORT LOGICAL RULESET
 
 Most Recent Ruleset Change Recorded:
-	Adoption of Proposal 7875, 7 Sep 2017
+	Adoption of Proposal 7898, 26 Sep 2017
 
 Online documents:
  https://agoranomic.github.io/ruleset/slr.txt (SLR)
@@ -13,7 +13,7 @@ Online documents:
 Agora
 ----------------------------------------------------------------------
 
-Rule 101/17 (Power=3)
+Rule 101/17 (Power=4)
 The Game of Agora
 
       Agora is a game of Nomic, wherein Persons, acting in accordance
@@ -25,7 +25,7 @@ The Game of Agora
 
 ----------------------------------------------------------------------
 
-Rule 1698/4 (Power=3)
+Rule 1698/5 (Power=4)
 Agora Is A Nomic
 
       Agora is ossified if it is IMPOSSIBLE for any reasonable combination of
@@ -34,10 +34,10 @@ Agora Is A Nomic
 
       If, but for this rule, the net effect of a proposal would cause Agora to
       become ossified, or would cause Agora to cease to exist, it cannot take
-      effect, rules to the contrary notwithstanding.If any other single change
-      to the gamestate would cause Agora to become ossified, or would cause
-      Agora to cease to exist, it is cancelled and does not occur, rules to the
-      contrary notwithstanding.
+      effect, rules to the contrary notwithstanding.Any other single change or
+      inseparable group of changes to the gamestate would cause Agora to become
+      ossified, or would cause Agora to cease to exist, it is cancelled and does
+      not occur, rules to the contrary notwithstanding.
 
 ----------------------------------------------------------------------
 
@@ -327,34 +327,30 @@ No Cretans Need Apply
 
 ----------------------------------------------------------------------
 
-Rule 105/13 (Power=3)
+Rule 105/14 (Power=3)
 Rule Changes
 
-      Where permitted by other rules, an instrument generally can,
-      as part of its effect,
+      Where permitted by other rules, an instrument generally can, as part of
+      its effect,
 
-      1. enact a rule.  The new rule has power equal to the minimum
-         of the power specified by the enacting instrument,
-         defaulting to one if the enacting instrument does not
-         specify or if it specifies a power less than 0.1, and the
-         maximum power permitted by other rules.  The enacting
-         instrument may specify a title for the new rule, which if
-         present shall prevail.  The ID number of the new rule cannot
-         be specified by the enacting instrument; any attempt to so
-         specify is null and void.
+      1. enact a rule.  The new rule has power equal to the minimum of the power
+         specified by the enacting instrument, defaulting to one if the enacting
+         instrument does not specify or if it specifies a power less than 0.1,
+         and the maximum power permitted by other rules. The enacting instrument
+         may specify a title for the new rule, which if present shall prevail.
+         The ID number of the new rule cannot be specified by the enacting
+         instrument; any attempt to so specify is null and void.
 
-      2. repeal a rule.  When a rule is repealed, it ceases to be a
-         rule, and the Rulekeepor need no longer maintain a record
-         of it.
+      2. repeal a rule.  When a rule is repealed, it ceases to be a rule, and
+         the Rulekeepor need no longer maintain a record of it.
 
-      3. reenact a rule.  A repealed rule identified by its most
-         recent rule number may be reenacted with the same ID number
-         and the next change identifier.  If no text is specified,
-         the rule is reenacted with the same text it had when it was
-         most recently repealed.  If the reenacting proposal provides
-         new text for the rule, the rule must have materially the
-         same purpose as did the repealed version; otherwise, the
-         attempt to reenact the rule is null and void.
+      3. reenact a rule. A repealed rule identified by its most recent rule
+         number MUST be reenacted with the same ID number and the next change
+         identifier. If no text is specified, the rule is reenacted with the
+         same text it had when it was most recently repealed. If the reenacting
+         proposal provides new text for the rule, the rule must have materially
+         the same purpose as did the repealed version; otherwise, the attempt to
+         reenact the rule is null and void.
 
       4. amend the text of a rule.
 
@@ -362,24 +358,44 @@ Rule Changes
 
       6. change the power of a rule.
 
-      A rule change is any effect that falls into the above classes.
-      Rule changes always occur sequentially, never simultaneously.
+      A rule change is any effect that falls into the above classes. Rule
+      changes always occur sequentially, never simultaneously.
 
-      Any ambiguity in the specification of a rule change causes that
-      change to be void and without effect.  An inconsequential
-      variation in the quotation of an existing rule does not
-      constitute ambiguity for the purposes of this rule, but any
-      other variation does.
+      Any ambiguity in the specification of a rule change causes that change to
+      be void and without effect.An inconsequential variation in the quotation
+      of an existing rule does not constitute ambiguity for the purposes of this
+      rule, but any other variation does.
 
-      A rule change is wholly prevented from taking effect unless its
-      full text was published, along with an unambiguous and clear
-      specification of the method to be used for changing the rule, at
-      least 4 days and no more than 60 days before it would otherwise
-      take effect.
+      A rule change is wholly prevented from taking effect unless its full text
+      was published, along with an unambiguous and clear specification of the
+      method to be used for changing the rule, at least 4 days and no more than
+      60 days before it would otherwise take effect.
 
-      This rule provides the only mechanism by which rules can be
-      created, modified, or destroyed, or by which an entity can
-      become a rule or cease to be a rule.
+      This rule provides the only mechanism by which rules can be created,
+      modified, or destroyed, or by which an entity can become a rule or cease
+      to be a rule.
+
+----------------------------------------------------------------------
+
+Rule 2445/10 (Power=1)
+The Propose-O-Matic
+
+      The Fearmongor is an Office. Its holder is responsible for ensuring the
+      continuous change of the ruleset.
+
+      Each month, the Fearmongor SHALL do the following as part of eir duties:
+
+       1) Select two existing rules at random. For each of those rules, submit
+          an Official proposal with AI equal to that rules' power. One proposal
+          SHALL specify only to repeal its rule; the other SHALL specify only to
+          amend its rule.
+
+       2) Select a previous rule that was repealed over 1 year ago, and has not
+          been so selected in the past 6 months. Submit an Official proposal of
+          the appropriate AI to re-enact the rule at its previous power, using
+          any past version of the rule as a basis and making minimal
+          modifications to that text to allow the rule to function in the
+          current ruleset.
 
 ----------------------------------------------------------------------
 
@@ -776,39 +792,40 @@ Assets
 
 ----------------------------------------------------------------------
 
-Rule 2493/0 (Power=3.1)
+Rule 2493/1 (Power=3.1)
 Regulations
 
       A Regulation is an instrument defined as such by this rule. A regulation
-      allows an officer (known as the Promulgator) to exercise rule defined powers.
-      A regulation is in effect continuously from the time of its creation to the
-      time of either its revocation or the repeal of the rule that allowed for its
-      creation. When recommending a regulation, its Promulgator must specify by
-      number the rule(s) upon which it is based (the parent rules), the list of
-      which becomes an integral part of the regulation. The list of rules can
-      generally be modified by the Promulgator according to the procedure for text
-      changes.
+      allows an officer (known as the Promulgator) to exercise rule defined
+      powers. A regulation is in effect continuously from the time of its
+      creation to the time of either its revocation or the repeal of the rule
+      that allowed for its creation. When recommending a regulation, its
+      Promulgator must specify by number the rule(s) upon which it is based (the
+      parent rules), the list of which becomes an integral part of the
+      regulation. The list of rules can generally be modified by the Promulgator
+      according to the procedure for text changes.
 
-      A regulation must be authorized by at least one rule in order for it to exist.
-      A regulation has effect on the game (only) insofar as the rule or rules that
-      authorized it permit it to have effect, and a regulation generally inherits
-      the power of its least powerful parent rule, unless its Promulgator defines
-      a lower power. If reasonably possible, a regulation should be
-      interpreted so as to defer to other rules. The procedure for resolving
-      conflict between regulations is the same as it is for rules.
+      A regulation must be authorized by at least one rule in order for it to
+      exist. A regulation has effect on the game (only) insofar as the rule or
+      rules that authorized it permit it to have effect, and a regulation
+      generally inherits the power of its least powerful parent rule, unless its
+      Promulgator defines a lower power. If reasonably possible, a regulation
+      should be interpreted so as to defer to other rules. The procedure for
+      resolving conflict between regulations is the same as it is for rules.
 
       Regulations are generally issued according to the following procedures,
-      and they can be repealed by the announcement of their Promulgator. Alternate
-      procedures may be used if provided for by all of the regulations's parent
-      rules. If one parent rule specifies procedures that are more stringent than
-      those that the other(s) specifies, those apply. Creating, modifying, revoking,
-      or allowing for a regulation is secured at power 1.
+      and they can be repealed by the announcement of their Promulgator.
+      Alternate procedures may be used if provided for by all of the
+      regulations's parent rules. If one parent rule specifies procedures that
+      are more stringent than those that the other(s) specifies, those apply.
+      Creating, modifying, revoking, or allowing for a regulation is secured at
+      power 1.
 
-      A regulation (or set of regulations), authorized by another rule, may
-      generally be enacted or modified by its promulgator without 2 objections,
-      or with Agoran consent. A notice pursuant to the previous sentence is
-      known as a "recommendation", and the regulation(s) are said to be
-      "recommended" to Agora.
+      A regulation (or set of regulations), authorized by another
+      rule, CAN generally be enacted or modified by its promulgator
+      without 2 objections, or with Agoran consent. A notice pursuant
+      to the previous sentence is known as a "recommendation", and
+      the regulation(s) are said to be "recommended" to Agora.
 
 ----------------------------------------------------------------------
 
@@ -839,6 +856,23 @@ The Regkeepor
       The Regkeepor SHOULD remember that the purpose of the ACORN is to make the
       regulations easily readable, and e SHALL not act in a manner intended to
       deceive others in eir official capacity.
+
+----------------------------------------------------------------------
+
+Rule 2505/0 (Power=1.0)
+Random Choices
+
+      When a Rule specifies that a random choice be made, then the choice shall
+      be made using whatever probability distribution among the possible
+      outcomes the Rule specifies, defaulting to a uniform probability
+      distribution.
+
+      The choice CAN be made using any physical or computational process whose
+      probability distribution among the possible outcomes is reasonably close
+      to that required by the Rules, and for which the final choice is not
+      trivially predictable by the selecting person in advance.The selecting
+      person SHOULD make the selection method public, and SHOULD use a method
+      for which the final probability distribution can be readily confirmed.
 
 ----------------------------------------------------------------------
 
@@ -887,7 +921,7 @@ Proposals
 
 ----------------------------------------------------------------------
 
-Rule 2445/8 (Power=1)
+Rule 2445/10 (Power=1)
 How to Pend a Proposal
 
       Imminence is a switch, tracked by the Promotor, possessed by
@@ -899,42 +933,45 @@ How to Pend a Proposal
 
         a) spending 1 Action Point, OR
 
-        b) spending 1/20th the Floating Value in shinies.
+        b) spending the current Pend Cost in shinies
+
+      An Official Proposal is a proposal designated as such by the Rules;
+      generally official proposals that are created as part of an Officer's
+      duties. Rules to the contrary notwithstanding, an Official proposal is
+      always pending. Rules to the contrary notwithstanding, players CANNOT
+      claim rewards for the adoption of an Official proposal.
 
 ----------------------------------------------------------------------
 
-Rule 1607/43 (Power=3)
+Rule 1607/44 (Power=3)
 Distribution
 
-      The Promotor is an office; its holder is responsible for
-      receiving and distributing proposals.
+      The Promotor is an office; its holder is responsible for receiving and
+      distributing proposals.
 
-      Determining whether to adopt a proposal is an Agoran decision.
-      For this decision, the vote collector is the Assessor, the
-      adoption index is initially the adoption index of the proposal,
-      or 1.0 if the proposal does not have one, and the text, author,
-      and coauthors of the proposal are essential parameters. 
-      Initiating such a decision is known as distribution, and removes
-      the proposal from the Proposal Pool.
+      Determining whether to adopt a proposal is an Agoran decision. For this
+      decision, the vote collector is the Assessor, the adoption index is
+      initially the adoption index of the proposal, or 1.0 if the proposal does
+      not have one, and the text, author, and coauthors of the proposal are
+      essential parameters. Initiating such a decision is known as distribution,
+      and removes the proposal from the Proposal Pool.
 
-      The Promotor CAN distribute a proposal which is in the Proposal
-      Pool at any time. The Promotor SHALL NOT distribute proposals
+      The Promotor CAN distribute a proposal which is in the Proposal Pool at
+      any time, by announcement. The Promotor SHALL NOT distribute proposals
       which are not pending.
 
-      In a given Agoran week, the Promotor SHALL, as part of eir
-      weekly duties, distribute all pending proposals.
+      In a given Agoran week, the Promotor SHALL, as part of eir weekly duties,
+      distribute all pending proposals.
 
-      Distributed proposals have ID numbers, to be assigned by the
-      Promotor.
+      Distributed proposals have ID numbers, to be assigned by the Promotor.
 
-      If there is a Proposal in the Pool that it would otherwise be
-      IMPOSSIBLE for any player to distribute, then any player CAN
-      distribute that Proposal Without 3 Objections.
+      If there is a Proposal in the Pool that it would otherwise be IMPOSSIBLE
+      for any player to distribute, then any player CAN distribute that Proposal
+      Without 3 Objections.
 
-      The Promotor's report includes a list of all proposals in the
-      Proposal Pool, along with their text and attributes.  This
-      portion of a public document purporting to be a Promotor's
-      report is self-ratifying.
+      The Promotor's report includes a list of all proposals in the Proposal
+      Pool, along with their text and attributes.This portion of a public
+      document purporting to be a Promotor's report is self-ratifying.
 
 ----------------------------------------------------------------------
 
@@ -1553,6 +1590,35 @@ No News Is Some News
 
 ----------------------------------------------------------------------
 
+Rule 2446/5 (Power=1)
+The Agoran Newspaper
+
+      The Reportor is an office.
+
+      The Reportor's weekly report includes:
+
+         1. A suitable name for a newspaper, at the Reportor's
+            discretion.
+
+         2. A description of events that have happened since the last
+            report that the Reportor believes significant or
+            interesting.
+
+         3. Any editorialization or other pieces of Agora-related
+            information the Reportor pleases, as long as it is neither
+            i) factually incorrect nor ii) disrespectful to any person
+            or Agora itself.
+
+      While meeting these requirements, the Reportor may format eir report however e
+      pleases. The Reportor's reports are still subject to the requirements of rule
+      2143
+
+      The Reportor SHALL include at least one piece of information relevant to Agora
+      in the last week and SHALL write with the goal of creating a more informed
+      population.
+
+----------------------------------------------------------------------
+
 ======================================================================
 Rulekeeping
 ----------------------------------------------------------------------
@@ -1642,37 +1708,34 @@ Bleach
 Calls for Judgement
 ----------------------------------------------------------------------
 
-Rule 991/17 (Power=2)
+Rule 991/21 (Power=2)
 Calls for Judgement
 
-      Any person (the initiator) can initiate a Call for Judgement (CFJ,
-      syn. Judicial Case), specifying a statement to be inquired into:
+      Any person (the initiator) can initiate a Call for Judgement (CFJ, syn.
+      Judicial Case), specifying a statement to be inquired into:
 
         a) by announcement, and spending 1 Action Point, OR
 
-        b) by announcement, and spending 1/20th the Floating Value in
-        shinies, OR
+        b) by announcement, and spending the current CFJ Cost in shinies, OR
 
         c) by announcement if e is not a player.
 
-      When a person initiates a Call for Judgment, e may optionally bar one
-      person from the case.
+      When a person initiates a Call for Judgment, e CAN optionally bar one
+      person from the case by announcement.
 
-      At any time, each CFJ is either open (default), suspended, or
-      assigned exactly one judgement.
+      At any time, each CFJ is either open (default), suspended, or assigned
+      exactly one judgement.
 
-      The Arbitor is an office, responsible for the administration of
-      justice in a manner that is fair for emself, if not for the rest
-      of Agora.
+      The Arbitor is an office, responsible for the administration of justice in
+      a manner that is fair for emself, if not for the rest of Agora.
 
-      When a CFJ has no judge assigned, the Arbitor CAN assign any
-      player to be its judge by announcement, and SHALL do so within a
-      week.  The players eligible to be assigned as judge are all
-      players except the initiator and the person barred (if any).
-      The Arbitor SHALL assign judges over time such that all
-      interested players have reasonably equal opportunities to judge.
-      If a CFJ has no judge assigned, then any player eligible to
-      judge that CFJ CAN assign it to emself Without 3 Objections.
+      When a CFJ has no judge assigned, the Arbitor CAN assign any player to be
+      its judge by announcement, and SHALL do so within a week.The players
+      eligible to be assigned as judge are all players except the initiator and
+      the person barred (if any). The Arbitor SHALL assign judges over time such
+      that all interested players have reasonably equal opportunities to judge.
+      If a CFJ has no judge assigned, then any player eligible to judge that CFJ
+      CAN assign it to emself Without 3 Objections.
 
 ----------------------------------------------------------------------
 
@@ -1765,10 +1828,11 @@ Judicial Retraction and Excess
 
 ----------------------------------------------------------------------
 
-Rule 2492/0 (Power=1)
+Rule 2492/1 (Power=1)
 Recusal
 
-      A judge may recuse emself from a CFJ they are assigned to.
+      A judge CAN recuse emself from a CFJ they are assigned to by
+      announcement.
 
       When a judge recuses emself from a CFJ the following happens:
         1 - The CFJ becomes unassigned
@@ -1783,42 +1847,40 @@ Recusal
 Punishment
 ----------------------------------------------------------------------
 
-Rule 2426/5 (Power=2)
+Rule 2426/6 (Power=2)
 Cards
 
-      A Card is a recognition of a specific violation of the rules or
-      other manner of infraction that is awarded to the violator in
-      order to draw attention to eir disregard for the rule of law
-      and, depending on the type of Card, to impose a penalty.
+      A Card is a recognition of a specific violation of the rules or other
+      manner of infraction that is awarded to the violator in order to draw
+      attention to eir disregard for the rule of law and, depending on the type
+      of Card, to impose a penalty.
 
-      Cards CANNOT be issued except by players by announcement. Any
-      attempt to issue a Card, or any intent for a dependent action to
-      issue a Card, is INEFFECTIVE if it does not include the
-      following information:
+      Cards CANNOT be issued except by players by announcement. Any attempt to
+      issue a Card, or any intent for a dependent action to issue a Card, is
+      INEFFECTIVE if it does not include the following information:
 
       - The type of Card being issued,
-      - The person to whom the Card is being issued (the bad sport),
-        and
-      - The specific action, inaction of the bad sport giving rise to
-        the Card (the reason).
+      - The person to whom the Card is being issued (the bad sport), and
+      - The specific action, inaction of the bad sport giving rise to the Card
+        (the reason).
 
       Issuing Cards is secured with power threshold 1.7.
 
-      The types of Card are defined by the rules. A type of Card may
-      have a defined set of circumstances for which it is appropriate,
-      as well as a penalty which takes effect when a Card of that type
-      is issued.  Unless otherwise specified by the rule defining a
-      type of Card, that Card type's penalty and circumstances for
-      which it is appropriate are secured at the power threshold of
-      that rule.
+      The types of Card are defined by the rules. A type of Card may have a
+      defined set of circumstances for which it is appropriate, as well as a
+      penalty which takes effect when a Card of that type is issued.Unless
+      otherwise specified by the rule defining a type of Card, that Card type's
+      penalty and circumstances for which it is appropriate are secured at the
+      power threshold of that rule. It is inappropriate to award a card to a
+      non-player person unless the rule defining the card says otherwise.
 
       A person SHALL NOT issue a Card unless:
 
       - the reason is appropriate for the type of Card being issued;
       - there has not already been a Card issued for that reason; and
-      - the reason occurred within the 14 days preceding the issuance
-        of the Card or, when the Card arises out of any manner of
-        official proceeding, the initiation of that proceeding.
+      - the reason occurred within the 14 days preceding the issuance of the
+        Card or, when the Card arises out of any manner of official proceeding,
+        the initiation of that proceeding.
 
 ----------------------------------------------------------------------
 
@@ -1837,57 +1899,80 @@ Rule 2478/1 (Power=1.7)
 Vigilante Justice
 
       A player CAN by announcement, but subject to the provisions of
-      this rule, Point eir Finger at a player, citing an alleged
-      violation of the rules by that player.
+      this rule, Point eir Finger at a person who plays the game, citing an
+      alleged violation of the rules by that person.
 
-      When a player Points a Finger, the investigator SHALL
-      investigate the allegation and, in a timely fashion, SHALL
-      conclude the investigation by:
+      When a player Points a Finger, the investigator SHALL investigate the
+      allegation and, in a timely fashion, SHALL conclude the investigation by:
 
-       - issuing a Card to the pointed-at player by announcement whose
-         reason is rooted in the allegation;
+       - issuing a Card to the pointed-at person by announcement whose reason is
+         rooted in the allegation; or
 
-       - if e believes that no rules violation occurred or that it
-         would be ILLEGAL to issue a Card for it, announcing the
-         Finger Pointing to be Shenanigans.
+       - if e believes that no rules violation occurred or that it would be
+         ILLEGAL to issue a Card for it, announcing the Finger Pointing to be
+         Shenanigans.
 
-      The Referee is by default the investigator for all Finger
-      Pointing.  When a Finger, other than the Arbitor's, is Pointed
-      over an allegation related to the official duties or powers of
-      the Referee, then the Arbitor CAN, by announcement, take over
-      the investigation and thereby become the investigator.
+      The Referee is by default the investigator for all Finger Pointing. When a
+      Finger, other than the Arbitor's, is Pointed over an allegation related to
+      the official duties or powers of the Referee, then the Arbitor CAN, by
+      announcement, take over the investigation and thereby become the
+      investigator.
 
-      A player CANNOT point a finger more than twice per Agoran week,
-      or more than once per Agoran week at the same player.
+      A player CANNOT point a finger more than twice per Agoran week, or more
+      than once per Agoran week at the same person.
 
 ----------------------------------------------------------------------
 
-Rule 2479/0 (Power=1.7)
+Rule 2479/1 (Power=1.7)
 Official Justice
 
-      The Referee CAN, subject to the provisions of this rule, impose
-      Summary Judgment on a player by issuing a card to em by
+      The Referee CAN, subject to the provisions of this rule, impose Summary
+      Judgment on a person who plays the game by issuing a card to em by
       announcement.
 
-      The Referee CANNOT Point eir Finger or impose Summary Judgment
-      more than five total times per week, or more than twice per week
-      at or on the same player.
+      The Referee CANNOT Point eir Finger or impose Summary Judgment more than
+      five total times per week, or more than twice per week at or on the same
+      person.
 
-      As part of the Referee's weekly duties, e SHALL either impose
-      Summary Judgment on a player or truthfully announce that e
-      believes that there are no rules violations in the preceding
-      Agoran week for which a Card has not already been issued.
+      As part of the Referee's weekly duties, e SHALL either impose Summary
+      Judgment on a person or truthfully announce that e believes that there are
+      no rules violations in the preceding Agoran week for which a Card has not
+      already been issued.
 
 ----------------------------------------------------------------------
 
-Rule 2474/0 (Power=0.5)
+Rule 2474/2 (Power=0.5)
 Green Cards
 
       A Green Card is a type of Card that is appropriate for minor, accidental,
       and/or inconsequential infraction. A Green Card is also appropriate for
-      any infraction for which no other type of Card is appropriate. When a
-      person is issued a Green Card, e is ENCOURAGED to travel to the United
-      States.
+      any infraction for which no other type of Card is appropriate. 'Tis
+      appropriate to issue a Green Card to a non-player person who plays the
+      game, for the infractions previously described. When a person is issued a
+      Green Card, e is ENCOURAGED to travel to the United States.
+
+----------------------------------------------------------------------
+
+Rule 2506/0 (Power=2.0)
+Blue Cards
+
+      A Blue Card is a type of Card that is appropriate for deliberate or negligent
+      infractions either where the the player responsible profited from violating
+      the rules or where e significantly harmed another person or the game
+      as a whole. The person issuing a Blue Card must, in the same message,
+      announce a penalty between 1 shiny and the greater of 25 shinies and the
+      amount the bad sport profited from the infraction, in order for the card to
+      be effective. E CAN additionally, in the same message, determine the
+      distribution of the money between Agora and the players(s) harmed, save
+      that e CANNOT distribute money to emself or such that it would be under
+      eir effective control. By default, all the money goes to Agora.
+
+      When a Blue Card is issued, as a penalty, within the next 7 days, any player
+      CAN once, with 2 Support, Levy a Fine upon the bad sport. After the Fine is
+      Levied upon the bad sport, e SHALL endeavor in good faith to pay the fine
+      to Agora or the correct player(s), in accordance with the distribution laid
+      out by the carder. Any player CAN also act on the bad sport's behalf to do so,
+      fulfilling eir obligation.
 
 ----------------------------------------------------------------------
 
@@ -1899,7 +1984,7 @@ Yellow Cards
       infractions for which a Green Card has already been issued.
 
       When a Yellow Card is issued, the bad sport SHOULD publish a formal
-      apology of at least 200 words explaining eir error, shame, remorse, and
+      apology of at least 150 words explaining eir error, shame, remorse, and
       ardent desire for self-improvement. A player issuing a Yellow Card MAY,
       when doing so, additionally specify up to 10 words to be included in the
       apology. Until e publishes such an apology, as a penalty, the bad sport's
@@ -1940,6 +2025,25 @@ Pink Slips
 
 ----------------------------------------------------------------------
 
+Rule 2507/0 (Power=2.0)
+Black Cards
+
+      A Black Card is a card appropriate for a person who plays the game, not
+      currently a player, who either broke the rules while not a player or
+      broke them while a player and then deregistered in bad faith. A Black
+      Card CANNOT be issued to current players, and no more than 3 Black Cards
+      CAN be issued per week. Any attempt to issue a Black Card in violation
+      of these limitations is INEFFECTIVE.
+
+      When a Black Card is issued, as a penalty, within the next 7 days, any player
+      CAN once, with Agoran Consent, Slam the Door at the bad sport. After the Door
+      is Slammed at a person, e CANNOT register or take any game actions for 30
+      days, rules to the contrary notwithstanding. Any attempt to Slam the Door on
+      a player or a person whose most recent deregistration took place without
+      eir consent is INEFFECTIVE, rules to the contrary notwithstanding.
+
+----------------------------------------------------------------------
+
 ======================================================================
 Winning
 ----------------------------------------------------------------------
@@ -1970,25 +2074,23 @@ Eras
 
 ----------------------------------------------------------------------
 
-Rule 103/23 (Power=2)
+Rule 103/24 (Power=2)
 The Speaker
 
-      The Speaker is an imposed office and the figurehead leader of
-      Agora.
+      The Speaker is an imposed office and the figurehead leader of Agora.
 
-      The player or players who have most recently won the game are
-      called Laureled. If at any time the office of Speaker is vacant,
-      or when one or more players win Agora, then the Prime Minister
-      CAN and SHALL, once and in a timely fashion, appoint a Laureled
-      player to the office of Speaker.
+      The player or players who have most recently won the game are called
+      Laureled. If at any time the office of Speaker is vacant, or when one or
+      more players win Agora, then the Prime Minister CAN and SHALL, once and in
+      a timely fashion, appoint a Laureled player to the office of Speaker by
+      announcement.
 
-      If the office of Speaker has been held continuously by the same
-      person for 90+ days, then any player CAN appoint another player
-      to the office with Support.
+      If the office of Speaker has been held continuously by the same person for
+      90+ days, then any player CAN appoint another player to the office with
+      Support.
 
-      For an election of the Prime Minister, the Speaker has voting
-      strength one greater than e would have if e did not hold the
-      office.
+      For an election of the Prime Minister, the Speaker has voting strength one
+      greater than e would have if e did not hold the office.
 
 ----------------------------------------------------------------------
 
@@ -2211,26 +2313,24 @@ Degrees
 
 ----------------------------------------------------------------------
 
-Rule 2231/5 (Power=3)
+Rule 2231/6 (Power=3)
 Order of the Hero of Agora Nomic
 
-      Heroic titles are Agora's premier patent titles of distinction,
-      and CAN be awarded to persons for meritorious service only by a
-      proposal of power 3 or greater, which SHOULD explain why those
-      persons are qualified.  Bearers of heroic titles (Heroes)
-      constitute the Order of the Hero of Agora Nomic.
+      Heroic titles are Agora's premier patent titles of distinction, and CAN be
+      awarded to persons for meritorious service only by a proposal of power 3
+      or greater, which SHOULD explain why those persons are qualified.Bearers
+      of heroic titles (Heroes) constitute the Order of the Hero of Agora Nomic.
 
       The Heroic titles in decreasing precedence are:
 
-      Grand Hero of Agora Nomic (GHAN) -- This title may be awarded to
-      any person obviously and directly responsible for the existence
-      of Agora and/or Nomic in general.  As this title is the highest
-      honour that Agora may bestow, a Bearer of this title OUGHT to be
-      treated right good forever.
+      Grand Hero of Agora Nomic (GHAN) -- This title may be awarded to any
+      person obviously and directly responsible for the existence of Agora
+      and/or Nomic in general.As this title is the highest honour that Agora may
+      bestow, a Bearer of this title OUGHT to be treated right good forever.
 
-      Hero of Agora Nomic (HAN) -- This title may be awarded to any
-      person for outstanding meritorious service to Agora above and
-      beyond the call of duty.
+      Hero of Agora Nomic (HAN) -- This title may be awarded to any person for
+      outstanding meritorious service to Agora above and beyond the call of
+      duty.
 
 ----------------------------------------------------------------------
 
@@ -2261,32 +2361,30 @@ Motion of No Confidence
 
 ----------------------------------------------------------------------
 
-Rule 2451/3 (Power=1.7)
+Rule 2451/4 (Power=1.7)
 Executive Orders
 
-      Once per week and except as otherwise forbidden by this
-      rule, the current Prime Minister CAN issue a Cabinet Order
-      and perform the action(s) authorized by that Order.
+      Once per week and except as otherwise forbidden by this rule, the current
+      Prime Minister CAN issue a Cabinet Order by announcement to perform the
+      action(s) authorized by that Order.
 
-      Each Cabinet Order is associated with an office. The current
-      Prime Minister CANNOT issue more than one Cabinet Order
-      associated with the same office more than once in the same
-      month, nor can e issue a Cabinet Order associated with a
-      vacant office.
+      Each Cabinet Order is associated with an office. The current Prime
+      Minister CANNOT issue more than one Cabinet Order associated with the same
+      office more than once in the same month, nor can e issue a Cabinet Order
+      associated with a vacant office.
 
       The available Cabinet Orders are:
 
-      - Certiorari (Arbitor): The Prime Minister assigns emself as
-        judge of a specified open case.
+      - Certiorari (Arbitor): The Prime Minister assigns emself as judge of a
+        specified open case.
 
-      - Dive (Referee): The Prime Minister issues a specified Card to
-        a specified player. The reason for the card MAY be any
-        grievance held by the Prime Minister, not necessarily a
-        violation of the rules, against the person to whom the Card is
-        issued.
+      - Dive (Referee): The Prime Minister issues a specified Card to a
+        specified player. The reason for the card MAY be any grievance held by
+        the Prime Minister, not necessarily a violation of the rules, against
+        the person to whom the Card is issued.
 
-      - Manifesto (Promotor): The Prime Minister distributes a
-        specified proposal in the Proposal Pool.
+      - Manifesto (Promotor): The Prime Minister distributes a specified
+        proposal in the Proposal Pool.
 
 ----------------------------------------------------------------------
 
@@ -2306,26 +2404,28 @@ Pledges
 
 ----------------------------------------------------------------------
 
-Rule 2467/4 (Power=1)
+Rule 2467/6 (Power=1)
 Agencies
 
       An Agency is a document empowering persons to act on behalf of another
-      player. A player MAY establish an Agency With 24 hours Notice, and thereby
+      player. A player CAN establish an Agency With 24 hours Notice, and thereby
       become its Director, by specifying the properties of the new Agency,
       provided e has not established any other Agency that day:
 
-        1. A title, which must be exactly three words, not counting
-           conjunctions, articles or prepositions.
-        2. A non-empty list of persons other than the Director (the Agents).
-        3. A description of a set of actions (the Powers).
+      1. A title, which must be exactly three words, not counting conjunctions,
+      articles or prepositions.
+
+      2. A non-empty list of persons other than the Director (the Agents).
+
+      3. A description of a set of actions (the Powers).
 
       An Agency's Director may amend its properties or revoke it with 24 hours
       Notice. For greater certainty, an announced intent to create an Agency or
       amend an Agency's powers is INEFFECTIVE unless it explicitly specifies the
       new values of the properties being created or amended.
 
-      The Powers of an Agency must be stated as actions, although they may may
-      be conditional on date, time, game state, or other preconditions. If
+      The Powers of an Agency must be stated as actions, although they may be
+      conditional on date, time, game state, or other preconditions. If
       condition(s) are specified as necessary for a power to be used, it is
       limited; otherwise, it is unlimited. If it attempts to specify a power in
       a manner that is unclear, ambiguous, circular, inconsistent, paradoxical,
@@ -2338,8 +2438,9 @@ Agencies
       acronym of an agency must be unique and any attempt to create or amend an
       Agency such that two Agencies would have the same acronym is INEFFECTIVE.
 
-      The Agents of an Agency may perform the Actions described in the Powers of
-      the Agency on behalf of the Agency's Director.
+      The Agents of an Agency CAN perform the Actions described in the Powers of
+      the Agency on behalf of the Agency's Director, in the same manner by which
+      the Agency's Director can perform those Actions.
 
 ----------------------------------------------------------------------
 
@@ -2418,19 +2519,18 @@ Happy Birthday
 
 ----------------------------------------------------------------------
 
-Rule 2464/1 (Power=1)
+Rule 2464/2 (Power=1)
 Tournaments
 
-      A Tournament is a sub-game of Agora specifically sanctioned
-      to be initiated as a tournament by the Rules.  If a winner of a
-      tournament is determined within 4 weeks of its initiation, that
-      person or persons win the game, otherwise the tournament
-      concludes with no winner. A Tournament is governed by a special temporary
-      title of the ACORN, created in accordance with its parent rule,
-      which have binding control over those who freely agree to play the tournament
-      and over the tournament itself. Once the tournament is concluded, these
-      regulations cease to have any effect, and may be repealed by any player by
-      announcement.
+      A Tournament is a sub-game of Agora specifically sanctioned to be
+      initiated as a tournament by the Rules. If a winner of a tournament is
+      determined within 4 weeks of its initiation, that person or persons win
+      the game, otherwise the tournament concludes with no winner. A Tournament
+      is governed by a special temporary title of the ACORN, created in
+      accordance with its parent rule, which have binding control over those who
+      freely agree to play the tournament and over the tournament itself. Once
+      the tournament is concluded, these regulations cease to have any effect,
+      and CAN be repealed by any player by announcement.
 
 ----------------------------------------------------------------------
 
@@ -2446,6 +2546,30 @@ Holidays
 
       If a person breaks a Rule by missing a deadline that occurs
       during a Holiday, punishment is generally not appropriate.
+
+----------------------------------------------------------------------
+
+Rule 2495/1 (Power=1)
+The Birthday Tournament
+
+      In a timely fashion after the start of June 1 of each year, the Herald
+      SHALL propose a set of Regulations governing a Birthday Tournament for
+      that year; the Herald CAN also delegate the responsibility for creating
+      or running the tournament to another player, with that player's consent,
+      by announcement.
+
+      The Birthday Tournament's regulations SHOULD be such that all persons who
+      choose to participate have a fair chance of winning the tournament
+      (according to its regulations), and a winner SHOULD be expected within
+      2-3 weeks following the tournament's initiation.
+
+      After adequate time for discussion of the Birthday Tournament's
+      regulations, the Herald (or delegate) CAN initiate a sanctioned
+      tournament with a specified, finalized set of regulations, Without 3
+      Objections. By doing so e promulgates those regulations as a special
+      temporary title of the ACORN. This title may thereafter be amended only
+      by the Herald or eir designee without objection, to correct minor typos.
+      The initiation SHOULD be timed to coincide with Agora's Birthday.
 
 ----------------------------------------------------------------------
 
@@ -2555,7 +2679,7 @@ Organizational Restructuring
 
 ----------------------------------------------------------------------
 
-Rule 2456/2 (Power=1)
+Rule 2456/4 (Power=1)
 The Secretary
 
       The Secretary is an office. The Secretary's weekly report
@@ -2567,10 +2691,20 @@ The Secretary
       3. Whether Agora is on Global Lockout, and if so, when it ends.
       4. A list of all Organizations and their Income.
       5. Each player's Expenditure.
+      6. The Floating Value, and all Floating Derived Values
 
       The Secretary's monthly report includes:
 
       1. Each Organization's Charter.
+
+      The Secretary CAN flip the floating value once a week by announcement. As
+      part of eir weekly duties, e SHALL flip the Floating Value to the number
+      of Shinies owned by Agora; e SHALL NOT ever set it to a different value. E
+      SHOULD do this while publishing eir weekly report. If the Secretary
+      discovers that e last flipped the floating value to an incorrect value and
+      e would not otherwise be able to set it again yet, e CAN and SHALL set the
+      value to what it should have been set to in the first place by
+      announcement.
 
 ----------------------------------------------------------------------
 
@@ -2644,27 +2778,25 @@ The Surveyor
 
 ----------------------------------------------------------------------
 
-Rule 2491/3 (Power=2)
+Rule 2491/4 (Power=2)
 Estate Auctions
 
-      During an auction, any player may bid a number of Shinies on eir own
-      behalf by announcement, or on behalf of any Organization for which such a
-      bid is Appropriate by announcement, provided the bid is higher than any
+      At the start of each month, if Agora owns at least one Estate, the
+      Surveyor CAN, by announcement, and SHALL in a timely fashion, put one
+      Estate which is owned by Agora up for auction. Each auction ends seven
+      days after it begins.
+
+      During an auction, any player CAN bid a number of Shinies on eir own
+      behalf, by announcement, or on behalf of any Organization for which such a
+      bid is Appropriate, by announcement, provided the bid is higher than any
       previously-placed bid in the same auction.
 
       If, at the end of the auction, there is a single highest bid, then that
       player or Organization wins the auction. The player who placed the winning
-      bid CAN cause Agora to transfer the auctioned Estate to the winner by
-      announcement, by paying Agora the amount of the bid, or by causing the
-      winning Organization to pay Agora the amount of the bid. E SHALL do so in
-      a timely fashion.
-
-      If, at the end of the auction, there is a single highest bid, then that
-      player or Organization wins the auction. The player who placed the winning
-      bid CAN cause Agora to transfer the auctioned Estate to the winner by
-      announcement, by paying Agora the amount of the bid, or by causing the
-      winning Organization to pay Agora the amount of the bid. E SHALL do so in
-      a timely fashion.
+      bid CAN, and SHALL in a timely fashion, cause Agora to transfer the
+      auctioned Estate to the winner by announcement, by paying Agora the amount
+      of the bid, or by causing the winning Organization to pay Agora the amount
+      of the bid.
 
 ----------------------------------------------------------------------
 
@@ -2679,16 +2811,97 @@ Estate Ballots
 
 ----------------------------------------------------------------------
 
+Rule 2502/0 (Power=2.0)
+Agoraculture
+
+      Each Estate has a Farm switch, tracked by the Agronomist, with values
+      "farmed" and "unfarmed", defaulting to "unfarmed". Changes to Farm
+      switches are secured. An Estate whose Farm switch is "farmed" is a Farm,
+      and its owner is the Farmer of that Estate.
+
+      In the first week of an Agoran month, the owner of an unfarmed Estate MAY
+      flip its Farm switch to "farmed" by announcement, if e pays Agora a number
+      of shinies equal to the Farm Rate.
+
+      In the first week of an Agoran month, the owner of a Farm MAY till the
+      farm by announcement, if e pays Agora a number of shinies equal to the
+      Farm Rate. If the Farmer of an Estate does not till it within the first
+      week of an Agoran month, the Agronomist CAN flip its Farm switch to
+      "unfarmed" by announcement, and SHALL do so in a timely fashion.
+
+      When an Estate is transferred to Agora or to an Organization, its Farm
+      switch is set to "unfarmed" immediately afterwards
+
+----------------------------------------------------------------------
+
+Rule 2503/0 (Power=2.0)
+Comestibles
+
+      A Comestible is a type of liquid asset, which can be owned by players.
+      Creating Comestibles is secured. The recordkeepor of Comestibles is the
+      Agronomist.
+
+      The Farmer of an Estate may offer Comestibles by announcement, naming a
+      number of Comestibles offered and a price per Comestible in Shinies. A
+      player CANNOT offer more Comestibles in a month than 10 times the number
+      of Farms e owns. The Farmer is ENCOURAGED to name the kind of Comestibles
+      on offer after a plant, vegetable, grain, livestock, or other farm good.
+
+      A player other than the offering Farmer may accept a Comestibles offer by
+      announcement to create that number of Comestibles in eir possession, if e
+      pays the offering Farmer the price per Comestible named in the offer times
+      the number of Comestbiles offered. The Value of a Comestible created this
+      way is equal to the price per Comestible offered by the Farmer.
+
+      An offer expires at the end of the Agoran month in which it is made. Rules
+      to the contrary notwithstanding, an offer CANNOT be accepted if it has
+      expired.
+
+      During an Agoran Decision, a player can increase their voting strength on
+      that decision by destroying (syn. "eating", "consuming") Comestibles. Eir
+      voting strength is increased by one-tenth the total Value of the
+      Comestibles destroyed this way, rounded down, to a maximum of 5.
+
+      A Comestible is an Expired Comestible if it was created by accepting an
+      offer announced more than three Agoran months ago. An Expired Comestible
+      CANNOT be consumed to increase voting strength, and MAY be destroyed by
+      any player, by announcement. The Agronomist SHALL destroy all Expired
+      Comestibles at the start of each Agoran month.
+
+----------------------------------------------------------------------
+
+Rule 2501/0 (Power=1.0)
+Farm Rate
+
+      The Farm Rate is a natural singleton switch, tracked by the Agronomist.
+
+----------------------------------------------------------------------
+
+Rule 2504/0 (Power=2.0)
+The Agronomist
+
+      The Agronomist is an office.
+
+      The Agronomist's weekly report includes:
+
+      * A list of Farms and their owners.
+
+      * A list of Comestibles offers that have not been accepted and have
+        not expired.
+
+----------------------------------------------------------------------
+
 ======================================================================
 Shinies
 ----------------------------------------------------------------------
 
-Rule 2483/3 (Power=2)
+Rule 2483/4 (Power=2)
 Economics
 
-      Shinies (sg. shiny) are an indestructible liquid currency, and the official
-      currency of Agora. They may be owned by Agora, any player, or any
-      organization. The Secretary is the recordkeepor for Shinies.
+      Shinies (sg. shiny) are an indestructible liquid currency, and the
+      official currency of Agora.Shiny ownership is restricted to Agora, any
+      player, any organization, or any entity explicitly defined by the Rules to
+      be an Agoran Institution. The Secretary is the recordkeepor for Shinies.
 
       The Secretary CAN cause Agora to pay any player or organization by
       announcement if doing so is specified by a rule.
@@ -2710,97 +2923,102 @@ Shiny Supply Level
 
 ----------------------------------------------------------------------
 
-Rule 2485/1 (Power=1)
-You can't take it with you
-
-      "Heir" is a person switch, tracked by the Registrar, whose value
-      is either empty or the name of a player or Organization. Each
-      person's Heir is empty by default. A player may flip eir Heir by
-      announcement.
-
-      When a player is deregistered, if eir Heir switch is not empty,
-      e automatically pays all of eir Balance to the named player or
-      Organization, and transfers all of eir Estates to the named
-      player or Organization. Otherwise, if eir Heir switch is empty,
-      e may specify another player, an Organization, or Agora, and pay
-      all of eir Balance and transfer all of eir Estates to the
-      specified player or Organization. If the player does not do so
-      within 1 day of deregistration, the Registrar CAN and SHALL
-      cause that player to pay eir Balance to Agora and to transfer
-      all of eir Estates to Agora, by announcement.
-
-----------------------------------------------------------------------
-
-Rule 2496/0 (Power=1)
+Rule 2496/5 (Power=1)
 Rewards
 
       A Reward is a specified amount of shinies associated with a Reward
-      Condition. For each time a player meets a Reward Condition, e MAY
-      claim the specified award exactly once within 24 hours of meeting the
-      Reward Condition.
+      Condition. For each time a player meets a Reward Condition, e CAN claim
+      the specified award, by announcement, exactly once within 24 hours of
+      meeting the Reward Condition. When a player claims a reward, e SHALL list
+      the number of shinies e receives, or it is INEFFECTIVE.
 
-      When a player 'claims' a Reward, Agora transfers the specified number
-      of shinies to the player.
+      When a player 'claims' a Reward, Agora transfers the specified number of
+      shinies to the player.
 
       Below is an exhaustive list of Reward Conditions and eir rewards:
 
         * The following two only apply to proposals that were pended via
-        spending shinies:
+          spending shinies:
 
-           - Being the author of an adopted proposal: 1/40th the current
-           Floating Value.
+           * Being the author of an adopted proposal: the current Authorship
+             Reward.
 
-           - Being the pender of an adopted proposal: 1/40th the current
-           Floating Value.
+           * Being the pender of an adopted proposal: the current Pend Reward.
 
-        * Judging a CFJ, that was created via spending shinies, that e was
-          assigned to: 1/20th the current Floating Value.
+       * Judging a CFJ, that was created via spending shinies, that e was
+         assigned to: the current CFJ Reward.
 
-        *Publishing a duty-fulfilling report: 5 shinies. This reward can be
-         claimed a maximum of once per office per week for a weekly report, and
-         once per office per month for a monthly report.
+       * Publishing a duty-fulfilling report: 5 shinies.
 
-        * Resolving an Agoran Decision for the first time this week: 5
-          shinies.
+       * Resolving an Agoran Decision for the first time this week: 5 shinies.
+
+       * Having a Thesis pass peer-review and be granted a Degree based on its
+         merit: 20 shinies
 
 ----------------------------------------------------------------------
 
-Rule 2498/0 (Power=1)
+Rule 2498/2 (Power=1)
 Economic Wins
 
-      Stamps are an asset, identified by eir creator and tracked by the
-      Secretary.
+      Stamps are an asset. The Secretary is the recordkeepor of Stamps.
 
       The Stamp Value is always 1/5th the current Floating Value.
 
-      Once per month, a player MAY, by announcement, transfer to Agora the
-      Stamp Value, in shinies, to create a Stamp.
+      Once per month, a player CAN, by announcement, create a stamp by
+      transferring the Stamp Value, in shinies, to Agora.
 
-      Players MAY, by announcement, destroy a Stamp and cause Agora to
-      transfer the Stamp Value, in shinies, to em.
+      If Agora owns at least as many Shinies as the current Stamp Value, a
+      player CAN, by announcement, destroy a Stamp e owns to cause Agora to
+      transfer the Stamp Value, in shinies, to emself.
 
-      While a player has Stamps made by at least 10 different players e MAY
-      destroy 10 stamps made by 10 different players by announcement to win
-      the game.
+      If a player owns Stamps created by at least 10 different players, e CAN
+      win the game by announcement, by destroying 10 stamps e owns, each of
+      which was created by a distinct player.
 
 ----------------------------------------------------------------------
 
-Rule 2497/0 (Power=1)
+Rule 2497/3 (Power=1)
 Floating Value
 
-      Floating Value is a natural switch. When e publishes eir Weekly Report, the
-      Secretary SHALL flip the Floating Value to Agora's shiny balance.
+      Floating Value is a natural singleton switch, tracked by the Secretary.
+
+      The following Floating Derived Values are defined:
+
+      * Pend Cost: 1/20th of the Floating Value, rounded up.
+      * CFJ Cost: 1/20th of the Floating Value, rounded up.
+      * Authorship Reward: 1/40th of the Floating Value, rounded up.
+      * Pend Reward: 1/40th of the Floating Value, rounded up.
+      * CFJ Reward: 1/20th of the Floating Value, rounded up.
+      * Stamp Value: 1/5th of the Floating Value, rounded up.
 
 ----------------------------------------------------------------------
 
-Rule 2499/0 (Power=1)
+Rule 2499/1 (Power=1)
 Welcome Packages
 
       If a player has not received a Welcome Package since e most recently
-      registered, any player MAY cause em to receive one by announcement.
+      registered, any player CAN cause em to receive one by announcement.
 
-      When a player receives a Welcome Package, Agora transfers 50 shinies
-      to em.
+      When a player receives a Welcome Package, Agora transfers 50 shinies to
+      em.
+
+----------------------------------------------------------------------
+
+Rule 2508/0 (Power=2.0)
+Community Chest
+
+      The Community Chest is an Agoran Institution.  If a player
+      has not done so in the current quarter, e CAN, by announcement,
+      transfer all the Shinies owned by the Community Chest to
+      any specified player.
+
+      If a player uses shinies to pend a Proposal or initiate a CFJ,
+      e MAY additionally specify, as part of the specification of
+      the transaction, that the funds be used for Charity (syn:
+      "Donated").  If e does so, then an instant after the
+      transaction is completed, half the value of the transaction in
+      shinies (rounded up) is transferred from Agora to the Community
+      Chest.
 
 ----------------------------------------------------------------------
 
@@ -2808,29 +3026,27 @@ Welcome Packages
 Festivals
 ----------------------------------------------------------------------
 
-Rule 2480/0 (Power=2.1)
+Rule 2480/1 (Power=2.1)
 Festivals
 
       Festivity is a singleton switch, whose possible values are integers
       ranging from 0 inclusive to the number of defined types of Ribbon
-      exclusive, and defaulting to 0. While Agora's Festivity is 0,
-      Festivity is tracked in the Tailor's monthly report. Otherwise, it
-      is tracked in the Tailor's weekly report. Changes to Festivity are
-      secured.
+      exclusive, and defaulting to 0. While Agora's Festivity is 0, Festivity is
+      tracked in the Tailor's monthly report. Otherwise, it is tracked in the
+      Tailor's weekly report. Changes to Festivity are secured.
 
-      If Agora's Festivity has had the same nonzero value for 14 days or
-      more, any player may flip it to 0 by announcement.
+      If Agora's Festivity has had the same nonzero value for 14 days or more,
+      any player CAN flip it to 0 by announcement.
 
-      A player who owns at least N types of Ribbon may Start a Rank N
-      Festival, where N is an integer greater than Agora's Festivity,
-      with 4 Support from players who own at least N types of Ribbon.
-      Upon doing so, Agora's Festivity is flipped to N. Exception: A
-      player may not do so if Agora's Festivity has had a value greater
-      than or equal to N within the past 21 days.
+      A player who owns at least N types of Ribbon CAN Start a Rank N Festival,
+      where N is an integer greater than Agora's Festivity, with 4 Support from
+      players who own at least N types of Ribbon. Upon doing so, Agora's
+      Festivity is flipped to N. Exception: A player CANNOT do so if Agora's
+      Festivity has had a value greater than or equal to N within the past 21
+      days.
 
-      A person who owns a number of types of Ribbon equal to or greater
-      than Agora's Festivity is known as Festive. Other persons are not
-      Festive.
+      A person who owns a number of types of Ribbon equal to or greater than
+      Agora's Festivity is known as Festive. Other persons are not Festive.
 
 ----------------------------------------------------------------------
 
@@ -2861,40 +3077,20 @@ Festival Restrictions
 Miscelaneous
 ----------------------------------------------------------------------
 
-Rule 2471/0 (Power=1)
+Rule 2471/1 (Power=1)
 No Faking
 
-      A person SHALL NOT attempt to perform an action which e knows is
-      IMPOSSIBLE so as to deceive others.
+      A person SHALL NOT make a public statement that is a lie. A statment is a lie
+      if its publisher either knew or believed it to be not to be true at the time
+      e published it (or, in the case of an action, not to be effective), and it
+      was made with the intent to mislead. Merely quoting a statement does not
+      constitute making it for the purposes of this rule.  Any disclaimer,
+      conditional clause, or other qualifier attached to a statement constitutes
+      part of the statement for the purposes of this rule; the truth or falsity of
+      the whole is what is significant.
 
-----------------------------------------------------------------------
-
-Rule 2446/5 (Power=1)
-The Agoran Newspaper
-
-      The Reportor is an office.
-
-      The Reportor's weekly report includes:
-
-         1. A suitable name for a newspaper, at the Reportor's
-            discretion.
-
-         2. A description of events that have happened since the last
-            report that the Reportor believes significant or
-            interesting.
-
-         3. Any editorialization or other pieces of Agora-related
-            information the Reportor pleases, as long as it is neither
-            i) factually incorrect nor ii) disrespectful to any person
-            or Agora itself.
-
-      While meeting these requirements, the Reportor may format eir report however e
-      pleases. The Reportor's reports are still subject to the requirements of rule
-      2143
-
-      The Reportor SHALL include at least one piece of information relevant to Agora
-      in the last week and SHALL write with the goal of creating a more informed
-      population.
+      The previous provisions of this rule notwithstanding, a formal announcement of
+      intent is never a lie.
 
 ----------------------------------------------------------------------
 
@@ -2923,37 +3119,12 @@ Town Fountain
 
 ----------------------------------------------------------------------
 
-Rule 2495/0 (Power=1)
-The Birthday Tournament
-
-      In a timely fashion after the start of June 1 of each year,
-      the Herald SHALL propose a set of Regulations governing a
-      Birthday Tournament for that year; the Herald CAN also
-      delegate the responsibility for creating or running the
-      tournament to another player, with that player's consent.
-
-      The Birthday Tournament's regulations SHOULD be such that all
-      persons who choose to participate have a fair chance of winning
-      the tournament (according to its regulations), and a winner
-      SHOULD be expected within 2-3 weeks following the tournament's
-      initiation.
-
-      After adequate time for discussion of the Birthday Tournament's
-      regulations, the Herald (or delegate) CAN initiate a sanctioned
-      tournament with a specified, finalized set of regulations,
-      Without 3 Objections. By doing so e promulgates those regulations as a
-      special temporary title of the ACORN. This title may thereafter be amended
-      only by the Herald or eir designee without objection, to correct minor typos.
-      The initiation SHOULD be timed to coincide with Agora's Birthday.
-
-----------------------------------------------------------------------
-
 
 ======================================================================
 
-Highest Rule ID number ever assigned: Rule 2504
+Highest Rule ID number ever assigned: Rule 2508
 
 Last Ruleset Ratification:
-	Short Logical Ruleset of 2014-04-07
+	Short Logical Ruleset of 2016-09-09
 
 END OF THE SHORT LOGICAL RULESET
